@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E30935E22552B9000591C11 /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E30935D22552B9000591C11 /* NewTableViewController.swift */; };
+		F010D5CA225952A000DB1A6B /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010D5C9225952A000DB1A6B /* GlobalVariables.swift */; };
 		F01144F8224AE4C2003CE438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01144F7224AE4C2003CE438 /* AppDelegate.swift */; };
-		F01144FA224AE4C2003CE438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01144F9224AE4C2003CE438 /* ViewController.swift */; };
 		F01144FD224AE4C2003CE438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01144FB224AE4C2003CE438 /* Main.storyboard */; };
 		F01144FF224AE4E0003CE438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01144FE224AE4E0003CE438 /* Assets.xcassets */; };
 		F0114502224AE4E0003CE438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0114500224AE4E0003CE438 /* LaunchScreen.storyboard */; };
 		F011450D224AE4E0003CE438 /* Nguyen_Justin_RemindersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011450C224AE4E0003CE438 /* Nguyen_Justin_RemindersTests.swift */; };
 		F0114518224AE4E0003CE438 /* Nguyen_Justin_RemindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0114517224AE4E0003CE438 /* Nguyen_Justin_RemindersUITests.swift */; };
+		F012818C225A78E600D6F2E7 /* NewItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012818B225A78E600D6F2E7 /* NewItemTableViewController.swift */; };
+		F012818E225A8ADC00D6F2E7 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012818D225A8ADC00D6F2E7 /* ReminderTableViewController.swift */; };
+		F025E30222654058008C80F5 /* CategoryPickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025E30122654058008C80F5 /* CategoryPickTableViewController.swift */; };
+		F02B89E2225157F200DD5B04 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02B89E1225157F200DD5B04 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E30935D22552B9000591C11 /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
+		F010D5C9225952A000DB1A6B /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		F01144F4224AE4C2003CE438 /* Nguyen_Justin_Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nguyen_Justin_Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01144F7224AE4C2003CE438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F01144F9224AE4C2003CE438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F01144FC224AE4C2003CE438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F01144FE224AE4E0003CE438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0114501224AE4E0003CE438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		F0114513224AE4E0003CE438 /* Nguyen_Justin_RemindersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nguyen_Justin_RemindersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0114517224AE4E0003CE438 /* Nguyen_Justin_RemindersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nguyen_Justin_RemindersUITests.swift; sourceTree = "<group>"; };
 		F0114519224AE4E0003CE438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F012818B225A78E600D6F2E7 /* NewItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemTableViewController.swift; sourceTree = "<group>"; };
+		F012818D225A8ADC00D6F2E7 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		F025E30122654058008C80F5 /* CategoryPickTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickTableViewController.swift; sourceTree = "<group>"; };
+		F02B89E1225157F200DD5B04 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		F01144F6224AE4C2003CE438 /* Nguyen_Justin_Reminders */ = {
 			isa = PBXGroup;
 			children = (
+				2E30935D22552B9000591C11 /* NewTableViewController.swift */,
+				F02B89E1225157F200DD5B04 /* MainTableViewController.swift */,
+				F012818D225A8ADC00D6F2E7 /* ReminderTableViewController.swift */,
+				F012818B225A78E600D6F2E7 /* NewItemTableViewController.swift */,
+				F010D5C9225952A000DB1A6B /* GlobalVariables.swift */,
+				F025E30122654058008C80F5 /* CategoryPickTableViewController.swift */,
 				F01144F7224AE4C2003CE438 /* AppDelegate.swift */,
-				F01144F9224AE4C2003CE438 /* ViewController.swift */,
-				F01144FB224AE4C2003CE438 /* Main.storyboard */,
 				F01144FE224AE4E0003CE438 /* Assets.xcassets */,
 				F0114500224AE4E0003CE438 /* LaunchScreen.storyboard */,
 				F0114503224AE4E0003CE438 /* Info.plist */,
+				F01144FB224AE4C2003CE438 /* Main.storyboard */,
 			);
 			path = Nguyen_Justin_Reminders;
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01144FA224AE4C2003CE438 /* ViewController.swift in Sources */,
+				2E30935E22552B9000591C11 /* NewTableViewController.swift in Sources */,
+				F012818E225A8ADC00D6F2E7 /* ReminderTableViewController.swift in Sources */,
+				F012818C225A78E600D6F2E7 /* NewItemTableViewController.swift in Sources */,
+				F025E30222654058008C80F5 /* CategoryPickTableViewController.swift in Sources */,
+				F02B89E2225157F200DD5B04 /* MainTableViewController.swift in Sources */,
 				F01144F8224AE4C2003CE438 /* AppDelegate.swift in Sources */,
+				F010D5CA225952A000DB1A6B /* GlobalVariables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
